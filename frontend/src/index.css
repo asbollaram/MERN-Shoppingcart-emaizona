@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/*mern-emainoza css start*/
+main{
+  padding: 1rem;
+}
+
+.productList{
+  display: flex;
+}
+.productDetils{
+  border:1px solid #e1e1e1;
+  margin: 1rem;
+}
+.productDetils img{
+  width: 100%;
+  max-width: 400px;
+}
+.productText{
+  padding: 1rem;
+}
