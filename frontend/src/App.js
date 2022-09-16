@@ -4,7 +4,9 @@ function App() {
   return (
     <div className="App">
       <header>
-        <a href="/#"><h3>Emaizona</h3></a>
+        <a href="/#">
+          <h3>Emaizona</h3>
+        </a>
       </header>
       <main>
         <p>listpages</p>
