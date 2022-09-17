@@ -2,7 +2,7 @@ const data ={
     products:[
         {
             name: "Nike slim",
-            slug: "Nike slim shirt",
+            slug: "Nike-slim-shirt",
             category: "Shirts",
             image: "/images/mp1.jpg",
             price: 120,
@@ -14,7 +14,7 @@ const data ={
         },
         {
             name: "Adidas pant",
-            slug: "Adidas slimfit pant",
+            slug: "Adidas-slimfit-pant",
             category: "pant",
             image: "/images/mp2.jpg",
             price: 130,
@@ -26,7 +26,7 @@ const data ={
         },
         {
             name: "Nike slim",
-            slug: "Nike skin slim shirt",
+            slug: "Nike-skin-slim-shirt",
             category: "Shirts",
             image: "/images/mp3.jpg",
             price: 125,
@@ -38,7 +38,7 @@ const data ={
         },
         {
             name: "Adidas pant slim",
-            slug: "Adidas slim pant",
+            slug: "Adidas-slim-pant",
             category: "pant",
             image: "/images/mp4.jpg",
             price: 110,
