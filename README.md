@@ -47,3 +47,6 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. define reducer
    2. update fetch data
    3. get state from useReducer
+8. Add bootstrap UI framewrok
+   1. npm install react-bootstrap bootstrap react-router-bootstrap (LinkContainer)
+   2. update app.js

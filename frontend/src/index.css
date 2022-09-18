@@ -12,8 +12,11 @@ code {
     monospace;
 }
 /*mern-emainoza css start*/
+.appContainer{
+  min-height: 100vh;
+}
 main{
-  padding: 1rem;
+ flex: 1;
 }
 
 .productList{
