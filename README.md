@@ -50,3 +50,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
 8. Add bootstrap UI framewrok
    1. npm install react-bootstrap bootstrap react-router-bootstrap (LinkContainer)
    2. update app.js
+9. Create Product and Rating Component
+   1. Create Rating component
+   2. Create product Componet
+   3. Use Rating componet in Product component

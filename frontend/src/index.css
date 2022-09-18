@@ -12,24 +12,27 @@ code {
     monospace;
 }
 /*mern-emainoza css start*/
-.appContainer{
+.appContainer {
   min-height: 100vh;
 }
-main{
- flex: 1;
+main {
+  flex: 1;
 }
 
-.productList{
+.productList {
   display: flex;
 }
-.productDetils{
-  border:1px solid #e1e1e1;
+.productDetils {
+  border: 1px solid #e1e1e1;
   margin: 1rem;
 }
-.productDetils img{
+.productDetils img {
   width: 100%;
   max-width: 400px;
 }
-.productText{
+.productText {
   padding: 1rem;
+}
+.rating span{
+  color: #ffa000;
 }
