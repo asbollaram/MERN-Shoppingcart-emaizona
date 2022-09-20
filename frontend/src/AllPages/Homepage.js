@@ -6,6 +6,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProductDetils from '../Components/ProductDetails';
 import { Helmet } from 'react-helmet-async';
+import LoadingBox from '../Components/LoadingBox';
+import MessageBox from '../Components/MessageBox';
 
 //
 const reducer = (state, action) => {
@@ -52,9 +54,9 @@ function Homepage() {
 
       <div className="productList">
         {loading ? (
-          <div style={{ color: 'red' }}>Loading...</div>
+          <LoadingBox />
         ) : error ? (
-          <div>{error}</div>
+          <MessageBox variant="danger">{error}</MessageBox>
         ) : (
           <Row>
             {products.map((product) => (

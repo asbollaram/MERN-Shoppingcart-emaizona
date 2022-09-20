@@ -59,3 +59,8 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    2. create 3 columns for image, info and action
    3. install react-helmet-async for adding title in addressbar
    4. <Helmet><title>{product.name}</title></Helmet>
+11. Create Loading and Message Component
+   1. Create loading component
+   2. use spinner component
+   3. create message component
+   4. create utils.js to define getError function
