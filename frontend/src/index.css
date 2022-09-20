@@ -33,6 +33,9 @@ main {
 .productText {
   padding: 1rem;
 }
-.rating span{
+.rating span {
   color: #ffa000;
+}
+.img-large {
+  max-width: 100%;
 }

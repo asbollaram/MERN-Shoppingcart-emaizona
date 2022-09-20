@@ -5,6 +5,7 @@ import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ProductDetils from '../Components/ProductDetails';
+import { Helmet } from 'react-helmet-async';
 
 //
 const reducer = (state, action) => {
@@ -45,7 +46,10 @@ function Homepage() {
   }, []);
   return (
     <div>
-      <h1>Latest Products</h1>
+      <Helmet>
+        <title>Emainzona</title>
+      </Helmet>
+
       <div className="productList">
         {loading ? (
           <div style={{ color: 'red' }}>Loading...</div>
