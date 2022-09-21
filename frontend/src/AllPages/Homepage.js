@@ -59,6 +59,7 @@ function Homepage() {
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
           <Row>
+            <h2 className="display-2 pb-4">Latest products</h2>
             {products.map((product) => (
               <Col key={product.slug} sm={6} md={4} lg={3} className="mb-3">
                 <ProductDetils product={product}></ProductDetils>
