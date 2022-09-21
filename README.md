@@ -68,4 +68,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. Create React Context
    2. define reducer
    3. implement add to cart button click handler
+ 13. complete add to cart
+   1. check exist item in the cart
+   2. check count in stock in backend  
    
