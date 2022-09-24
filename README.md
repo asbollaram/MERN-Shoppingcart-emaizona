@@ -79,3 +79,8 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. click handler for inc/dec item
    2. click handler for remove item
    3. click handler for checkout
+16. Create signin page
+   1. create sign in form
+   2. add email ana password
+   3. add sign button
+   

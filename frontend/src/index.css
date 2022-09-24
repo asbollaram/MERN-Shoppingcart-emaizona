@@ -42,3 +42,6 @@ main {
 .img-thumbnail {
   height: 80px;
 }
+.singin-Container{
+  max-width: 550px;
+}
