@@ -46,7 +46,7 @@ const data = {
       category: 'pant',
       image: '/images/mp4.jpg',
       price: 110,
-      countInStock: 5,
+      countInStock: 0,
       brand: 'Adidas',
       rating: 4.0,
       numReviews: 11,

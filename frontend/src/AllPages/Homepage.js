@@ -54,7 +54,7 @@ function Homepage() {
 
       <div className="productList">
         {loading ? (
-          <LoadingBox />
+          <LoadingBox className="center" />
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
