@@ -1,4 +1,5 @@
 # MERN-Shoppingcart-emaizona
+##[MERN Stack ECommerce Website]
 
 Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstrap and Reactjs
 
@@ -83,4 +84,8 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. create sign in form
    2. add email ana password
    3. add sign button
-   
+17. Connect to MangoDB Database
+   1. create atlas mongodb database
+   2. install local mongodb database
+   3. npm install mongoose
+   4. connect to mongodb databse
