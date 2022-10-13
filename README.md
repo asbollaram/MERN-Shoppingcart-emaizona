@@ -95,3 +95,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    3. create seed route
    4. use route in server.js
    5. seed sample product
+19. seed sample users
+   1. create user model
+   2. seed sample users
+   3. create user routes
