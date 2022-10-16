@@ -103,3 +103,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. create signin api ( npm i express-async-handler)
    2. npm install jsonwebtoken 
    3. define generateToken
+21. complete Signin Screen
+   1. handle submit action
+   2. save token in store and local storage
+   3. show user name in header

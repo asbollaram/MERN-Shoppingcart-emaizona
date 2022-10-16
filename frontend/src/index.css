@@ -42,6 +42,9 @@ main {
 .img-thumbnail {
   height: 80px;
 }
-.singin-Container{
+.singin-Container {
   max-width: 550px;
+}
+#basic-nav-dropdown {
+  color: #fff;
 }
