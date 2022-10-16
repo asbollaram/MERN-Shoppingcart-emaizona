@@ -9,8 +9,8 @@ productRouter.get('/', async (req, res) => {
 
 // product screen details
 
-productRouter.get('/slug/:slug',  async(req, res) => {
-  const product = await Product.findOne({slug:req.params.slug});
+productRouter.get('/slug/:slug', async (req, res) => {
+  const product = await Product.findOne({ slug: req.params.slug });
   if (product) {
     res.send(product);
   } else {
@@ -19,7 +19,7 @@ productRouter.get('/slug/:slug',  async(req, res) => {
 });
 // product cart item id
 
-productRouter.get('/:id', async(req, res) => {
+productRouter.get('/:id', async (req, res) => {
   const product = await Product.findById(req.params.id);
   if (product) {
     res.send(product);

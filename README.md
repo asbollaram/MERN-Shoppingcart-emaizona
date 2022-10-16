@@ -99,3 +99,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. create user model
    2. seed sample users
    3. create user routes
+20. Create Signin Backend API
+   1. create signin api ( npm i express-async-handler)
+   2. npm install jsonwebtoken 
+   3. define generateToken
