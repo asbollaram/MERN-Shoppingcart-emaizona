@@ -118,3 +118,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
 24. Implement Select Payment Method Screen
    1. create input forms
    2. handle submit
+25. Create Place Order Screen
+   1. show cart items, payment and adress
+   2. handle place order action
+   3. create order create api
