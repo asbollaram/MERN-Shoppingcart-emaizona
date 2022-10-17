@@ -107,3 +107,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. handle submit action
    2. save token in store and local storage
    3. show user name in header
+22. create shipping screen
+   1. create form inputs
+   2. handle save shipping address
+   3. add checkout wizard bar

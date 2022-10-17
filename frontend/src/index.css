@@ -48,3 +48,14 @@ main {
 #basic-nav-dropdown {
   color: #fff;
 }
+.small-container {
+  max-width: 600px;
+}
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #4b6de1;
+  color: #4b6de1;
+}
