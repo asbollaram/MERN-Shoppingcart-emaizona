@@ -62,6 +62,7 @@ export default function ShippingAddreddScreen() {
           <Form.Group className="mb-3" controlId="fullName">
             <Form.Label>Full Name</Form.Label>
             <Form.Control
+              placeholder="Full Name"
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
               required
@@ -71,6 +72,7 @@ export default function ShippingAddreddScreen() {
             <Form.Label>Address</Form.Label>
             <Form.Control
               value={address}
+              placeholder="Address"
               onChange={(e) => setAddress(e.target.value)}
               required
             />
@@ -78,6 +80,7 @@ export default function ShippingAddreddScreen() {
           <Form.Group className="mb-3" controlId="city">
             <Form.Label>City</Form.Label>
             <Form.Control
+              placeholder="City"
               value={city}
               onChange={(e) => setCity(e.target.value)}
               required
@@ -86,6 +89,7 @@ export default function ShippingAddreddScreen() {
           <Form.Group className="mb-3" controlId="postalCode">
             <Form.Label>Postal Code</Form.Label>
             <Form.Control
+              placeholder="Postal Code"
               value={postalCode}
               onChange={(e) => setPostalCode(e.target.value)}
               required
@@ -94,6 +98,7 @@ export default function ShippingAddreddScreen() {
           <Form.Group className="mb-3" controlId="country">
             <Form.Label>Country</Form.Label>
             <Form.Control
+              placeholder="Country"
               value={country}
               onChange={(e) => setCountry(e.target.value)}
               required

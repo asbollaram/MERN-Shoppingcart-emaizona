@@ -9,7 +9,7 @@ import { Store } from '../Store';
 import { toast } from 'react-toastify';
 import { getError } from '../utils';
 
-export default function SingInpage() {
+export default function SignInpage() {
   const navigate = useNavigate();
   const { search } = useLocation();
   const redirectInUrl = new URLSearchParams(search).get('redirect');
@@ -74,7 +74,7 @@ export default function SingInpage() {
         </div>
         <div className="my-3">
           New customer? {''}
-          <Link to={`/singup>redirect=${redirect}`}>Create you account</Link>
+          <Link to={`/signup?redirect=${redirect}`}>Create you account</Link>
         </div>
       </Form>
     </Container>
