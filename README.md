@@ -125,3 +125,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
 26. Implement Place Order Action
    1. handle place order action
    2. create order create API
+27. Create Order Screen
+   1. create backend api for order/:id
+   2. fetch order api i frontend
+   3. show order information in 2 cloumns
