@@ -129,3 +129,13 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. create backend api for order/:id
    2. fetch order api i frontend
    3. show order information in 2 cloumns
+28. Pay Order By Paypal
+   1. generate paypal client id
+   2. create api to return client id
+   3. install react-paypal.js(npm i @paypal/react-paypal-js)
+   4. use PayPalScriptProvider in index.js
+   5. use usePayPalScriptReducer in Order Screen
+   6. implement loadPalpalScript function
+   7. render paypal button
+   8. implement onApprove payment function
+   9. create pay order api in backend
