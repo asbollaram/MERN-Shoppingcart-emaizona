@@ -139,3 +139,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    7. render paypal button
    8. implement onApprove payment function
    9. create pay order api in backend
+29. Display Order History
+   1. Create order screen
+   2. Create order history API
+   3. use API in the frontend
