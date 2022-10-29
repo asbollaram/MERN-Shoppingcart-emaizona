@@ -143,3 +143,8 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. Create order screen
    2. Create order history API
    3. use API in the frontend
+30. Create profile screen
+   1. get user info from context
+   2. show user information
+   3. create user update API
+   4. update user info
