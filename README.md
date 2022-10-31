@@ -156,3 +156,6 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    5. create mongodb atlas database
    6. set database connection in heroku env variables
    7. Commit and push
+32. Add sidebar  and searchbox
+   1. add sidebar
+   2. add search box

@@ -15,6 +15,10 @@ code {
 .appContainer {
   min-height: 100vh;
 }
+.btn-outline-primary {
+  background-color: #f0c040;
+  color: #000000;
+}
 main {
   flex: 1;
 }
@@ -58,4 +62,27 @@ main {
 .checkout-steps > div.active {
   border-bottom: 0.2rem solid #4b6de1;
   color: #4b6de1;
+}
+/* sidebar */
+.navbar-brand {
+  font-weight: bold;
+}
+.side-navbar {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  left: -300px;
+  background-color: #100901;
+  transition: 0.5s;
+  top: 0;
+}
+
+.site-container {
+  transition: 0.4s;
+}
+.active-cont {
+  margin-left: 240px;
+}
+.active-nav {
+  left: 0;
 }
