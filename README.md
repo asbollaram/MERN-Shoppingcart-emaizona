@@ -148,3 +148,11 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    2. show user information
    3. create user update API
    4. update user info
+31. publish to Heroku
+   1. create and config  node project
+   2. serve build floder in frontend floder
+   3. create heroku account
+   4. connect it to github
+   5. create mongodb atlas database
+   6. set database connection in heroku env variables
+   7. Commit and push

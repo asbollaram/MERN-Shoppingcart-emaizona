@@ -1,0 +1,24 @@
+{
+  "name": "mern-shoppingcart-emaizona",
+  "version": "1.0.0",
+  "description": "Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstrap and Reactjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asbollaram/MERN-Shoppingcart-emaizona.git"
+  },
+  "keywords": [
+    "MERN-emaizona"
+  ],
+  "author": "Bollaram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asbollaram/MERN-Shoppingcart-emaizona/issues"
+  },
+  "homepage": "https://github.com/asbollaram/MERN-Shoppingcart-emaizona#readme"
+}
