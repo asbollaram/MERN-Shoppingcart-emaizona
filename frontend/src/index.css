@@ -49,7 +49,7 @@ main {
 .singin-Container {
   max-width: 550px;
 }
-#basic-nav-dropdown {
+#basic-nav-dropdown,#admin-nav-dropdown {
   color: #fff;
 }
 .small-container {
