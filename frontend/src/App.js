@@ -25,6 +25,7 @@ import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import { getError } from './utils';
 import SearchBox from './AllPages/SearchBox';
+import SearchScreen from './AllPages/SearchScreen';
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -57,8 +58,8 @@ function App() {
       <div
         className={
           SidebarIsOpen
-            ? 'flex-cloumn site-container active-cont'
-            : 'flex-cloumn site-container'
+            ? 'd-flex flex-column site-container active-cont'
+            : 'd-flex flex-column site-container'
         }
       >
         <ToastContainer position="bottom-center" limit={1} />
@@ -118,37 +119,37 @@ function App() {
             </Container>
           </Navbar>
         </header>
-      </div>
-      <div
-        className={
-          SidebarIsOpen
-            ? 'active-nav side-navbar fustify-content-between flex-wrap flex-cloumn'
-            : 'side-navbar fustify-content-between flex-wrap flex-cloumn'
-        }
-      >
-        <Nav className="flex-cloumn text-white w-100 p-2">
-          <Nav.Item>
-            <strong>Categories</strong>
-          </Nav.Item>
-          {categories.map((category) => (
-            <Nav.Item key={category}>
-              <LinkContainer
-                to={`/search?category=${category}`}
-                onClick={() => setSidebarisOpen(false)}
-              >
-                <Nav.Link>{category}</Nav.Link>
-              </LinkContainer>
-            </Nav.Item>
-          ))}
-        </Nav>
-      </div>
 
-      <div className="d-flex flex-colunm appContainer">
+        <div
+          className={
+            SidebarIsOpen
+              ? 'active-nav side-navbar d-flex justify-content-between flex-wrap flex-column'
+              : 'side-navbar d-flex justify-content-between flex-wrap flex-column'
+          }
+        >
+          <Nav className="flex-column text-white w-100 p-2 nav">
+            <Nav.Item>
+              <strong>Categories</strong>
+            </Nav.Item>
+            {categories.map((category) => (
+              <Nav.Item key={category}>
+                <LinkContainer
+                  to={`/search?category=${category}`}
+                  onClick={() => setSidebarisOpen(false)}
+                >
+                  <Nav.Link>{category}</Nav.Link>
+                </LinkContainer>
+              </Nav.Item>
+            ))}
+          </Nav>
+        </div>
+
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
               <Route path="/product/:slug" element={<ProductScreen />} />
               <Route path="/cart" element={<CartScreen />} />
+              <Route path="/search" element={<SearchScreen />} />
               <Route path="/signin" element={<SignInpage />} />
               <Route path="/signup" element={<SignUppage />} />
               <Route path="/profile" element={<ProfileScreen />} />
@@ -167,11 +168,11 @@ function App() {
             </Routes>
           </Container>
         </main>
-      </div>
 
-      <footer className="border-top p-2">
-        <div className="text-center">© 2022 Bollaram Studio, Inc</div>
-      </footer>
+        <footer className="border-top p-2">
+          <div className="text-center">© 2022 Bollaram Studio, Inc</div>
+        </footer>
+      </div>
     </BrowserRouter>
   );
 }

@@ -159,3 +159,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
 32. Add sidebar  and searchbox
    1. add sidebar
    2. add search box
+33. Create search screen
+   1. show filter
+   2. create api for searching products
+   3. display results

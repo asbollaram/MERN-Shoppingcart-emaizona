@@ -80,7 +80,7 @@ main {
 .site-container {
   transition: 0.4s;
 }
-.active-cont {
+.active-cont{
   margin-left: 240px;
 }
 .active-nav {
