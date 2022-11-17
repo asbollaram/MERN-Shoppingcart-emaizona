@@ -28,7 +28,7 @@ export default function ProfileScreen() {
   const [password, setPassword] = useState('');
   const [ConfirmPassword, setConfirmPassword] = useState('');
   //
-  const [{ loadingUpdate }, dispatch] = useReducer(reducer, {
+  const [dispatch] = useReducer(reducer, {
     loadingUpdate: false,
   });
 
@@ -41,6 +41,7 @@ export default function ProfileScreen() {
           name,
           email,
           password,
+          ConfirmPassword,
         },
         {
           headers: { Authorization: `Bearer ${userInfo.token}` },
