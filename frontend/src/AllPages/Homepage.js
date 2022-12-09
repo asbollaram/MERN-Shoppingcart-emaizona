@@ -49,7 +49,7 @@ function Homepage() {
   return (
     <div>
       <Helmet>
-        <title>Emainzona</title>
+        <title>emainzona</title>
       </Helmet>
 
       <div className="productList">
