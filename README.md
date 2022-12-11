@@ -171,3 +171,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. create Dashboard ui
    2. implement backend api
    3. connect ui to dashboard
+36. Manage Products
+   1. create products list UI
+   2. implement backend api
+   3. fetch data
