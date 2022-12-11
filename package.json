@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/asbollaram/MERN-Shoppingcart-emaizona/issues"
   },
-  "homepage": "https://github.com/asbollaram/MERN-Shoppingcart-emaizona#readme"
+  "homepage": "https://github.com/asbollaram/MERN-Shoppingcart-emaizona#readme",
+  "dependencies": {}
 }

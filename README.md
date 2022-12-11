@@ -167,3 +167,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. define protected route component
    2. define admin route component
    3. add menu for admin in header
+35. Create Dashboard Screen
+   1. create Dashboard ui
+   2. implement backend api
+   3. connect ui to dashboard
