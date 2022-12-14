@@ -186,3 +186,8 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
 39. Implement Update Product
    1. create edit product backend api
    2. handle update click
+40. Upload Product image
+   1. create cloudinary account
+   2. use the api key in env file
+   3. handle upload file
+   4. implement backend api to upload
