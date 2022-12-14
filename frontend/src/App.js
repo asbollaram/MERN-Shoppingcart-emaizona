@@ -78,7 +78,7 @@ function App() {
                 <i className="fas fa-bars"></i>
               </Button>
               <LinkContainer to="/">
-                <Navbar.Brand className="text-white">Emaizona</Navbar.Brand>
+                <Navbar.Brand className="text-white">emaizona</Navbar.Brand>
               </LinkContainer>
 
               <Navbar.Toggle aria-controls="basic-navbar-nav" />

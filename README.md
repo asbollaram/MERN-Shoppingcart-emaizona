@@ -191,3 +191,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    2. use the api key in env file
    3. handle upload file
    4. implement backend api to upload
+41. Delete products
+   1. create delete button 
+   2. implement backend api
+   3. create onclick event for delete the products

@@ -60,6 +60,23 @@ productRouter.post(
   })
 );
 
+// delete products
+
+productRouter.delete(
+  '/:id',
+  isAuth,
+  isAdmin,
+  expressAsyncHandler(async (req, res) => {
+    const product = await Product.findById(req.params.id);
+    if (product) {
+      await product.remove();
+      res.send({ message: 'Product Deleted' });
+    } else {
+      res.status(404).send({ message: 'Product Not Found' });
+    }
+  })
+);
+
 //filter products
 const PAGE_SIZE = 3;
 //
@@ -84,6 +101,7 @@ productRouter.get(
     });
   })
 );
+
 productRouter.get(
   '/search',
   expressAsyncHandler(async (req, res) => {
@@ -169,6 +187,7 @@ productRouter.get(
     res.send(categories);
   })
 );
+
 // product screen details
 
 productRouter.get('/slug/:slug', async (req, res) => {
@@ -179,6 +198,7 @@ productRouter.get('/slug/:slug', async (req, res) => {
     res.status(404).send({ message: 'Product Not Found!' });
   }
 });
+
 // product cart item id
 
 productRouter.get('/:id', async (req, res) => {
