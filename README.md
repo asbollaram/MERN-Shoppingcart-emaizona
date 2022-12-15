@@ -195,3 +195,7 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
    1. create delete button 
    2. implement backend api
    3. create onclick event for delete the products
+42. List Orders
+   1. create order list screen
+   2. implement backend api
+   3. fetch and display orders
