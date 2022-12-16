@@ -80,6 +80,9 @@ orderRouter.get(
     res.send({ users, orders, dailyOrders, productCategories });
   })
 );
+
+//
+
 orderRouter.get(
   '/mine',
   isAuth,
@@ -88,6 +91,7 @@ orderRouter.get(
     res.send(orders);
   })
 );
+
 //
 orderRouter.get(
   '/:id',
@@ -101,7 +105,26 @@ orderRouter.get(
     }
   })
 );
+
+//
+orderRouter.put(
+  '/:id/deliver',
+  isAuth,
+  expressAsyncHandler(async (req, res) => {
+    const order = await Order.findById(req.params.id);
+    if (order) {
+      order.isDelivered = true;
+      order.deliveredAt = Date.now();
+      await order.save();
+      res.send({ message: 'Order Delivered' });
+    } else {
+      res.status(404).send({ message: 'Order Not Found' });
+    }
+  })
+);
+
 // paypal
+
 orderRouter.put(
   '/:id/pay',
   isAuth,
