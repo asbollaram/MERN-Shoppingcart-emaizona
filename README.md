@@ -211,3 +211,9 @@ Mern shopping cart created in Mongodb,expressJs, NodeJs,Bootstrap,React-bootstra
     1. create user list screen
     2. implement backen api
     3. fetch and display users
+46. Edit User
+    1. create edit button
+    2. create edit product ui
+    3. dispaly product info in the input boxes
+    4. implement backend api
+    5. handle edit click
