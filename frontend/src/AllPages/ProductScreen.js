@@ -49,6 +49,7 @@ function ProductScreen() {
 
   const [rating, setRating] = useState(0);
   const [comment, setComment] = useState('');
+  const [selectedImage, setSelectedImage] = useState('');
 
   const navigate = useNavigate();
   const params = useParams();
@@ -136,7 +137,11 @@ function ProductScreen() {
     <div className="mt-4 p-1">
       <Row>
         <Col md={6}>
-          <img src={product.image} alt={product.name} className="img-large" />
+          <img
+            src={selectedImage || product.image}
+            alt={product.name}
+            className="img-large"
+          />
         </Col>
 
         <Col md={3}>
@@ -155,6 +160,24 @@ function ProductScreen() {
             </ListGroup.Item>
             <ListGroup.Item>Price ${product.price}</ListGroup.Item>
           </ListGroup>
+          <ListGroup.Item>
+            <Row xs={1} md={2} className="g-2">
+              {[product.image, ...product.images].map((x) => (
+                <Col key={x}>
+                  <Card>
+                    <Button
+                      className="thumbnail"
+                      type="button"
+                      variant="light"
+                      onClick={() => setSelectedImage(x)}
+                    >
+                      <Card.Img variant="top" src={x} alt="product" />
+                    </Button>
+                  </Card>
+                </Col>
+              ))}
+            </Row>
+          </ListGroup.Item>
           <ListGroup.Item className="px-3 border-top">
             Description: <p>{product.description}</p>
           </ListGroup.Item>
